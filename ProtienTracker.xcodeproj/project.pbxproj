@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5C2E42193A25E600289DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C2E41193A25E600289DCD /* Foundation.framework */; };
+		5B5C2E44193A25E600289DCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C2E43193A25E600289DCD /* CoreGraphics.framework */; };
+		5B5C2E46193A25E600289DCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C2E45193A25E600289DCD /* UIKit.framework */; };
+		5B5C2E4C193A25E600289DCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C2E4A193A25E600289DCD /* InfoPlist.strings */; };
+		5B5C2E4E193A25E600289DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C2E4D193A25E600289DCD /* main.m */; };
+		5B5C2E52193A25E600289DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C2E51193A25E600289DCD /* AppDelegate.m */; };
+		5B5C2E55193A25E600289DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C2E53193A25E600289DCD /* Main.storyboard */; };
+		5B5C2E58193A25E600289DCD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C2E57193A25E600289DCD /* MainViewController.m */; };
+		5B5C2E5A193A25E600289DCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C2E59193A25E600289DCD /* Images.xcassets */; };
+		5B5C2E61193A25E600289DCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C2E60193A25E600289DCD /* XCTest.framework */; };
+		5B5C2E62193A25E600289DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C2E41193A25E600289DCD /* Foundation.framework */; };
+		5B5C2E63193A25E600289DCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C2E45193A25E600289DCD /* UIKit.framework */; };
+		5B5C2E6B193A25E600289DCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C2E69193A25E600289DCD /* InfoPlist.strings */; };
+		5B5C2E6D193A25E600289DCD /* ProtienTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C2E6C193A25E600289DCD /* ProtienTrackerTests.m */; };
+		5B5C2E78193A291900289DCD /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C2E77193A291900289DCD /* HistoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B5C2E64193A25E600289DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5C2E36193A25E600289DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5C2E3D193A25E600289DCD;
+			remoteInfo = ProtienTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B5C2E3E193A25E600289DCD /* ProtienTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtienTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5C2E41193A25E600289DCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B5C2E43193A25E600289DCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B5C2E45193A25E600289DCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B5C2E49193A25E600289DCD /* ProtienTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProtienTracker-Info.plist"; sourceTree = "<group>"; };
+		5B5C2E4B193A25E600289DCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B5C2E4D193A25E600289DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B5C2E4F193A25E600289DCD /* ProtienTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProtienTracker-Prefix.pch"; sourceTree = "<group>"; };
+		5B5C2E50193A25E600289DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B5C2E51193A25E600289DCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B5C2E54193A25E600289DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B5C2E56193A25E600289DCD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5B5C2E57193A25E600289DCD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5B5C2E59193A25E600289DCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B5C2E5F193A25E600289DCD /* ProtienTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtienTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5C2E60193A25E600289DCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B5C2E68193A25E600289DCD /* ProtienTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProtienTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		5B5C2E6A193A25E600289DCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B5C2E6C193A25E600289DCD /* ProtienTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtienTrackerTests.m; sourceTree = "<group>"; };
+		5B5C2E76193A291900289DCD /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryViewController.h; path = ../HistoryViewController.h; sourceTree = "<group>"; };
+		5B5C2E77193A291900289DCD /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryViewController.m; path = ../HistoryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5C2E3B193A25E600289DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5C2E44193A25E600289DCD /* CoreGraphics.framework in Frameworks */,
+				5B5C2E46193A25E600289DCD /* UIKit.framework in Frameworks */,
+				5B5C2E42193A25E600289DCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5C2E5C193A25E600289DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5C2E61193A25E600289DCD /* XCTest.framework in Frameworks */,
+				5B5C2E63193A25E600289DCD /* UIKit.framework in Frameworks */,
+				5B5C2E62193A25E600289DCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5C2E35193A25E600289DCD = {
+			isa = PBXGroup;
+			children = (
+				5B5C2E47193A25E600289DCD /* ProtienTracker */,
+				5B5C2E66193A25E600289DCD /* ProtienTrackerTests */,
+				5B5C2E40193A25E600289DCD /* Frameworks */,
+				5B5C2E3F193A25E600289DCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B5C2E3F193A25E600289DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C2E3E193A25E600289DCD /* ProtienTracker.app */,
+				5B5C2E5F193A25E600289DCD /* ProtienTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5C2E40193A25E600289DCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C2E41193A25E600289DCD /* Foundation.framework */,
+				5B5C2E43193A25E600289DCD /* CoreGraphics.framework */,
+				5B5C2E45193A25E600289DCD /* UIKit.framework */,
+				5B5C2E60193A25E600289DCD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B5C2E47193A25E600289DCD /* ProtienTracker */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C2E76193A291900289DCD /* HistoryViewController.h */,
+				5B5C2E77193A291900289DCD /* HistoryViewController.m */,
+				5B5C2E50193A25E600289DCD /* AppDelegate.h */,
+				5B5C2E51193A25E600289DCD /* AppDelegate.m */,
+				5B5C2E53193A25E600289DCD /* Main.storyboard */,
+				5B5C2E56193A25E600289DCD /* MainViewController.h */,
+				5B5C2E57193A25E600289DCD /* MainViewController.m */,
+				5B5C2E59193A25E600289DCD /* Images.xcassets */,
+				5B5C2E48193A25E600289DCD /* Supporting Files */,
+			);
+			path = ProtienTracker;
+			sourceTree = "<group>";
+		};
+		5B5C2E48193A25E600289DCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C2E49193A25E600289DCD /* ProtienTracker-Info.plist */,
+				5B5C2E4A193A25E600289DCD /* InfoPlist.strings */,
+				5B5C2E4D193A25E600289DCD /* main.m */,
+				5B5C2E4F193A25E600289DCD /* ProtienTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B5C2E66193A25E600289DCD /* ProtienTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C2E6C193A25E600289DCD /* ProtienTrackerTests.m */,
+				5B5C2E67193A25E600289DCD /* Supporting Files */,
+			);
+			path = ProtienTrackerTests;
+			sourceTree = "<group>";
+		};
+		5B5C2E67193A25E600289DCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C2E68193A25E600289DCD /* ProtienTrackerTests-Info.plist */,
+				5B5C2E69193A25E600289DCD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B5C2E3D193A25E600289DCD /* ProtienTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5C2E70193A25E600289DCD /* Build configuration list for PBXNativeTarget "ProtienTracker" */;
+			buildPhases = (
+				5B5C2E3A193A25E600289DCD /* Sources */,
+				5B5C2E3B193A25E600289DCD /* Frameworks */,
+				5B5C2E3C193A25E600289DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtienTracker;
+			productName = ProtienTracker;
+			productReference = 5B5C2E3E193A25E600289DCD /* ProtienTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B5C2E5E193A25E600289DCD /* ProtienTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5C2E73193A25E600289DCD /* Build configuration list for PBXNativeTarget "ProtienTrackerTests" */;
+			buildPhases = (
+				5B5C2E5B193A25E600289DCD /* Sources */,
+				5B5C2E5C193A25E600289DCD /* Frameworks */,
+				5B5C2E5D193A25E600289DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B5C2E65193A25E600289DCD /* PBXTargetDependency */,
+			);
+			name = ProtienTrackerTests;
+			productName = ProtienTrackerTests;
+			productReference = 5B5C2E5F193A25E600289DCD /* ProtienTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B5C2E36193A25E600289DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Stryker;
+				TargetAttributes = {
+					5B5C2E5E193A25E600289DCD = {
+						TestTargetID = 5B5C2E3D193A25E600289DCD;
+					};
+				};
+			};
+			buildConfigurationList = 5B5C2E39193A25E600289DCD /* Build configuration list for PBXProject "ProtienTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B5C2E35193A25E600289DCD;
+			productRefGroup = 5B5C2E3F193A25E600289DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B5C2E3D193A25E600289DCD /* ProtienTracker */,
+				5B5C2E5E193A25E600289DCD /* ProtienTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B5C2E3C193A25E600289DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5C2E5A193A25E600289DCD /* Images.xcassets in Resources */,
+				5B5C2E4C193A25E600289DCD /* InfoPlist.strings in Resources */,
+				5B5C2E55193A25E600289DCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5C2E5D193A25E600289DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5C2E6B193A25E600289DCD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B5C2E3A193A25E600289DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5C2E58193A25E600289DCD /* MainViewController.m in Sources */,
+				5B5C2E52193A25E600289DCD /* AppDelegate.m in Sources */,
+				5B5C2E4E193A25E600289DCD /* main.m in Sources */,
+				5B5C2E78193A291900289DCD /* HistoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5C2E5B193A25E600289DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5C2E6D193A25E600289DCD /* ProtienTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B5C2E65193A25E600289DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B5C2E3D193A25E600289DCD /* ProtienTracker */;
+			targetProxy = 5B5C2E64193A25E600289DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B5C2E4A193A25E600289DCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5C2E4B193A25E600289DCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B5C2E53193A25E600289DCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5C2E54193A25E600289DCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B5C2E69193A25E600289DCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5C2E6A193A25E600289DCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B5C2E6E193A25E600289DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B5C2E6F193A25E600289DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B5C2E71193A25E600289DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProtienTracker/ProtienTracker-Prefix.pch";
+				INFOPLIST_FILE = "ProtienTracker/ProtienTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B5C2E72193A25E600289DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProtienTracker/ProtienTracker-Prefix.pch";
+				INFOPLIST_FILE = "ProtienTracker/ProtienTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B5C2E74193A25E600289DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProtienTracker.app/ProtienTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProtienTracker/ProtienTracker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProtienTrackerTests/ProtienTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B5C2E75193A25E600289DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProtienTracker.app/ProtienTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProtienTracker/ProtienTracker-Prefix.pch";
+				INFOPLIST_FILE = "ProtienTrackerTests/ProtienTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B5C2E39193A25E600289DCD /* Build configuration list for PBXProject "ProtienTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5C2E6E193A25E600289DCD /* Debug */,
+				5B5C2E6F193A25E600289DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5C2E70193A25E600289DCD /* Build configuration list for PBXNativeTarget "ProtienTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5C2E71193A25E600289DCD /* Debug */,
+				5B5C2E72193A25E600289DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B5C2E73193A25E600289DCD /* Build configuration list for PBXNativeTarget "ProtienTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5C2E74193A25E600289DCD /* Debug */,
+				5B5C2E75193A25E600289DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B5C2E36193A25E600289DCD /* Project object */;
+}
